@@ -2,7 +2,7 @@ product:
   label: product
   replicas: 1
   containerPort: 9010
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/product-service:lab05
   requests:
     cpu: 250m
     memory: 256Mi

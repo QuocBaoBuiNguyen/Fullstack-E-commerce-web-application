@@ -2,7 +2,7 @@ notification:
   label: notification
   replicas: 1
   containerPort: 9020
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/notification-service:lab05
   requests:
     cpu: 250m
     memory: 256Mi

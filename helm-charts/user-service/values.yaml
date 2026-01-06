@@ -2,7 +2,7 @@ user:
   label: user
   replicas: 1
   containerPort: 9050
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/user-service:lab05
   requests:
     cpu: 250m
     memory: 256Mi

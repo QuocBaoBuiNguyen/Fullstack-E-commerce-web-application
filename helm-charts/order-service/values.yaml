@@ -2,7 +2,7 @@ order:
   label: order
   replicas: 1
   containerPort: 9070
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/order-service:lab05
   requests:
     cpu: 250m
     memory: 256Mi

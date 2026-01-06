@@ -2,7 +2,7 @@ category:
   label: category
   replicas: 1
   containerPort: 9000
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/category-service:lab05
   requests:
     cpu: 250m
     memory: 256Mi

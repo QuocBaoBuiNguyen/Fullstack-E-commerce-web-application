@@ -2,7 +2,7 @@ registry:
   label: registry
   replicas: 1
   containerPort: 8761
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/service-registry:lab05
   requests:
     cpu: 250m
     memory: 256Mi

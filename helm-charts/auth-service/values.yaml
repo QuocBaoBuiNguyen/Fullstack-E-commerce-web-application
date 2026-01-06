@@ -2,7 +2,7 @@ auth:
   label: auth
   replicas: 1
   containerPort: 9030
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/auth-service:lab05
   requests:
     cpu: 250m
     memory: 256Mi

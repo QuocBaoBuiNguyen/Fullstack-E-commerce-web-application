@@ -2,7 +2,7 @@ web:
   label: web-app
   replicas: 1
   containerPort: 80
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/web-app:lab05
   requests:
     cpu: 250m
     memory: 256Mi

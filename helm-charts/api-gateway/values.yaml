@@ -2,7 +2,7 @@ gateway:
   label: gateway
   replicas: 1
   containerPort: 8080
-  image: default
+  image: k3d-lab05-ecommerce-reg:5000/ecommerce/api-gateway:lab05
   requests:
     cpu: 250m
     memory: 256Mi

@@ -18,7 +18,7 @@ category:
 
 secret:
   label: category-secret
-  SPRING_DATA_MONGODB_URI_CATEGORY: PROVIDED_VIA_GITHUB_ACTIONS
+  SPRING_DATA_MONGODB_URI_CATEGORY: "mongodb+srv://lab05admin:<db_password>@lab05-ecommerce-cluster.q1ldfli.mongodb.net/purely_category_service?retryWrites=true&w=majority&appName=lab05-ecommerce-cluster"
 
 config:
   label: category-config-map

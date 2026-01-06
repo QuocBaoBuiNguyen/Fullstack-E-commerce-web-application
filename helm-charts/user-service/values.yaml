@@ -18,7 +18,7 @@ user:
 
 secret:
   label: user-secret
-  SPRING_DATA_MONGODB_URI_USER: PROVIDED_VIA_GITHUB_ACTIONS
+  SPRING_DATA_MONGODB_URI_USER: "mongodb+srv://lab05admin:<db_password>@lab05-ecommerce-cluster.q1ldfli.mongodb.net/purely_user_service?retryWrites=true&w=majority&appName=lab05-ecommerce-cluster"
 
 config:
   label: user-config-map
